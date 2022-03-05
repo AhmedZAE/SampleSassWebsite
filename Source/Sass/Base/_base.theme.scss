@@ -1,0 +1,48 @@
+@import "base.palette";
+
+
+// Basic -------------------------
+
+a
+{
+    color: $on-background;
+    text-decoration: none;
+}
+
+
+// Header ------------------------
+
+$logo-color: $secondary;
+
+
+#page-header
+{
+    border-bottom: 4px solid $logo-color;
+
+    li
+    {
+        a
+        {
+            color: $on-header-footer;
+        }
+
+        &.selected a
+        {
+            color: $logo-color;
+        }
+        
+        a:hover
+        {
+            color: $secondary-variant;
+        }
+    }
+}
+
+
+// Logo ---------------------------
+
+.logo
+{
+    color: $logo-color;
+}
+

@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
+body {
+  background: #e6e6e6;
+  color: #0D101B;
+}
+
+header, footer {
+  background-color: #303030;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'logo-font';
+  src: url("../Fonts/logo-font/logo-font.woff2") format("woff2"), url("../Fonts/logo-font/logo-font.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo {
+  font-family: logo-font;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+#page-header, #page-footer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+}
+
+#page-header {
+  padding: 1.5em 0;
+}
+
+#page-footer {
+  margin: 0;
+  padding: 0.5em 0em;
+}
+
+#page-footer p {
+  font-size: 14px;
+}
+
+#page-header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#page-header #branding {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 25%;
+          flex: 1 0 25%;
+}
+
+#page-header #branding h1 {
+  margin: 0;
+}
+
+#page-header #navbar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 75%;
+          flex: 1 0 75%;
+}
+
+#page-header #navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#page-header #navbar li {
+  margin: 0 16px;
+  font-weight: 500;
+}
+
+#page-header #navbar li a:hover {
+  color: #29e6d1;
+}
+
+#page-header #navbar li.selected {
+  font-weight: 550;
+}
+
+#page-showcase {
+  text-align: center;
+  color: #FFFFFF;
+  background-image: url("../Images/showcase.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 32px;
+  padding: 32px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#page-showcase h1 {
+  width: 70%;
+  margin: 1em auto;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+#page-showcase p {
+  width: 80%;
+  margin: 3em auto;
+  font-size: 18px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+body {
+  background: #e6e6e6;
+  color: #0D101B;
+}
+
+header, footer {
+  background-color: #303030;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+a {
+  color: #0D101B;
+  text-decoration: none;
+}
+
+#page-header {
+  border-bottom: 4px solid #1FAD9D;
+}
+
+#page-header li a {
+  color: #FFFFFF;
+}
+
+#page-header li.selected a {
+  color: #1FAD9D;
+}
+
+#page-header li a:hover {
+  color: #29e6d1;
+}
+
+.logo {
+  color: #1FAD9D;
+}
+
+@media (max-width: 768px) {
+  #page-showcase {
+    margin-bottom: 16px;
+    padding: 8px 0;
+  }
+  #page-showcase h1 {
+    width: 80%;
+    margin: 1em auto;
+    font-size: 32px;
+  }
+  #page-showcase p {
+    width: 90%;
+    margin: 2em auto;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 28px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 512px) {
+  #page-header div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #page-header #branding, #page-header #navbar, #page-header #navbar ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  #page-header #branding {
+    margin-bottom: 16px;
+  }
+  #page-showcase {
+    margin-bottom: 16px;
+    padding: 8px 0;
+  }
+  #page-showcase h1 {
+    width: 100%;
+    margin: 1em auto;
+    font-size: 32px;
+  }
+  #page-showcase p {
+    width: 100%;
+    margin: 2em auto;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 24px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+h1.mid-title {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

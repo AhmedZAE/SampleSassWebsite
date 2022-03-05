@@ -1,0 +1,36 @@
+
+
+
+$background: #e6e6e6;
+$surface: #A570EB;
+
+$primary: #7b0fd4ff;
+$primary-variant: #563dd4ff;
+$secondary: #1FAD9D;
+$secondary-variant: #29e6d1;
+
+$header-footer: #303030;
+
+
+$on-background: #0D101B;
+$on-surface: #0D101B;
+
+$on-primary: #FFFFFF;
+$on-secondary: #FFFFFF;
+
+$on-header-footer: #FFFFFF;
+
+
+
+body
+{
+    background: $background;
+    color: $on-background;
+}
+
+header, footer
+{
+    background-color: $header-footer;
+    color: $on-header-footer;
+    margin: 0;
+}

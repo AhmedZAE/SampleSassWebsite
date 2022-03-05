@@ -1,0 +1,26 @@
+.alfred {
+  text-align: center;
+  margin: 2em auto;
+  font-size: 64px;
+  font-weight: 750;
+  letter-spacing: 0.3em;
+}
+
+@media (max-width: 768px) {
+  .alfred {
+    margin: 1em auto;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+  }
+}
+
+@media (max-width: 512px) {
+  .alfred {
+    margin: 1em auto;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+  }
+}
+/*# sourceMappingURL=about.css.map */

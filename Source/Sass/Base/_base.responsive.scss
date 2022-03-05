@@ -1,0 +1,114 @@
+
+
+// 768px Width Update ---------------
+
+@media(max-width: 768px)
+{
+
+    // Showcase ---------
+
+    #page-showcase
+    {
+        margin-bottom: 16px;
+        padding: 8px 0;
+
+        h1
+        {
+            width: 80%;
+            margin: 1em auto;
+
+            font-size: 32px;
+        }
+
+        p
+        {
+            width: 90%;
+            margin: 2em auto;
+
+            font-size: 16px;
+        }
+    }
+
+
+    // Font Size ----------
+
+    h1
+    {
+        font-size: 28px;
+
+        margin-left: 0;
+        margin-right: 0;
+
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+// 512px Width Update ---------------
+
+@media(max-width: 512px)
+{
+
+    // Header -------------
+
+    #page-header
+    {
+        div
+        {
+            flex-direction: column;
+        }
+
+        #branding, #navbar, #navbar ul
+        {
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+        }
+
+        #branding
+        {
+            margin-bottom: 16px;
+        }
+    }
+
+
+    // Showcase ---------
+
+    #page-showcase
+    {
+        margin-bottom: 16px;
+        padding: 8px 0;
+
+        h1
+        {
+            width: 100%;
+            margin: 1em auto;
+
+            font-size: 32px;
+        }
+
+        p
+        {
+            width: 100%;
+            margin: 2em auto;
+
+            font-size: 16px;
+        }
+    }
+
+
+    // Font Size ----------
+
+    h1
+    {
+        font-size: 24px;
+
+        margin-left: 0;
+        margin-right: 0;
+
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

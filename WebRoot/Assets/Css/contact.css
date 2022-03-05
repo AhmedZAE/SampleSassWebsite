@@ -1,0 +1,35 @@
+.Info-list ul {
+  margin-bottom: 64px;
+  padding: 0 32px;
+  list-style: none;
+}
+
+.Info-list ul li {
+  margin: 16px 0;
+  font-weight: 500;
+}
+
+.Info-list ul.link-list li {
+  font-weight: 550;
+}
+
+.Info-list ul.link-list li > a > i {
+  padding-right: 16px;
+}
+
+.Info-list ul.link-list i.fa-facebook-square {
+  color: #4267B2;
+}
+
+.Info-list ul.link-list i.fa-linkedin {
+  color: #2867B2;
+}
+
+.Info-list ul.link-list i.fa-github {
+  color: #211F1F;
+}
+
+.Info-list ul.link-list i.fa-gitlab {
+  color: #FC6D27;
+}
+/*# sourceMappingURL=contact.css.map */
